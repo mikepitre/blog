@@ -10,6 +10,48 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+  *= require normalize-rails
  *= require_tree .
  *= require_self
  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #f4f7f8;
+}
+
+header {
+  background: #e8eeef;
+}
+
+h1 {
+  color: #5fcf80;
+}
+
+a {
+  color: #5fcf80;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  font-weight: bold;
+  color: green;
+}
+
+p {
+  margin-left: 10px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+nav {
+}
+
+

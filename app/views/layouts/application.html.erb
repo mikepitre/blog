@@ -5,8 +5,21 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <%= google_webfonts_init({
+    google: ['Nunito']
+  }) %>
+
 </head>
 <body>
+
+<header>
+  <h1>Mike's Blog</h1>
+</header>
+
+<nav>
+  <%= link_to 'Home', root_path %>
+</nav>
 
 <%= yield %>
 
