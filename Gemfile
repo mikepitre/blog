@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'normalize-rails'
+
+gem 'google-webfonts-rails', '~> 0.0.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
