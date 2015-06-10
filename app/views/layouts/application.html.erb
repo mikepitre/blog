@@ -14,12 +14,8 @@
 <body>
 
 <header>
-  <h1>Mike's Blog</h1>
+  <h1><%= link_to "Mike's Blog", root_path %></h1>
 </header>
-
-<nav>
-  <%= link_to 'Home', root_path %>
-</nav>
 
 <%= yield %>
 
